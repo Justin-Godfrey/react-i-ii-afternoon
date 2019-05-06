@@ -12,6 +12,7 @@ const users = [
       "Klip (Clip)"
     ]
   },
+  
   {
     id: 2,
     name: { first: "Hastie", last: "Beardsdale" },

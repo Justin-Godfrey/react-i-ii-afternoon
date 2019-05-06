@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-export default function Card(props){
+export default function Card(props) {
     const mappedUser = props.filteredUser.map(user => (
         <div>
             <div className="page-count-container">
@@ -15,4 +15,4 @@ export default function Card(props){
             {mappedUser}
         </div>
     )
-};
+}

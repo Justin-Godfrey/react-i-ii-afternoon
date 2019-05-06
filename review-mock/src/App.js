@@ -16,7 +16,7 @@ export default class App extends Component {
       users: users,
       page: 1
     }
-  };
+  }
 
   next = () => {
     if (this.state.page === 25) {
